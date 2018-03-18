@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "githubexplorer-tvOS.app"
-               BlueprintName = "githubexplorer-tvOS"
-               ReferencedContainer = "container:githubexplorer.xcodeproj">
+               BuildableName = "redux_mastering-tvOS.app"
+               BlueprintName = "redux_mastering-tvOS"
+               ReferencedContainer = "container:redux_mastering.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "githubexplorer-tvOSTests.xctest"
-               BlueprintName = "githubexplorer-tvOSTests"
-               ReferencedContainer = "container:githubexplorer.xcodeproj">
+               BuildableName = "redux_mastering-tvOSTests.xctest"
+               BlueprintName = "redux_mastering-tvOSTests"
+               ReferencedContainer = "container:redux_mastering.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "githubexplorer-tvOSTests.xctest"
-               BlueprintName = "githubexplorer-tvOSTests"
-               ReferencedContainer = "container:githubexplorer.xcodeproj">
+               BuildableName = "redux_mastering-tvOSTests.xctest"
+               BlueprintName = "redux_mastering-tvOSTests"
+               ReferencedContainer = "container:redux_mastering.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "githubexplorer-tvOS.app"
-            BlueprintName = "githubexplorer-tvOS"
-            ReferencedContainer = "container:githubexplorer.xcodeproj">
+            BuildableName = "redux_mastering-tvOS.app"
+            BlueprintName = "redux_mastering-tvOS"
+            ReferencedContainer = "container:redux_mastering.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "githubexplorer-tvOS.app"
-            BlueprintName = "githubexplorer-tvOS"
-            ReferencedContainer = "container:githubexplorer.xcodeproj">
+            BuildableName = "redux_mastering-tvOS.app"
+            BlueprintName = "redux_mastering-tvOS"
+            ReferencedContainer = "container:redux_mastering.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "githubexplorer-tvOS.app"
-            BlueprintName = "githubexplorer-tvOS"
-            ReferencedContainer = "container:githubexplorer.xcodeproj">
+            BuildableName = "redux_mastering-tvOS.app"
+            BlueprintName = "redux_mastering-tvOS"
+            ReferencedContainer = "container:redux_mastering.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

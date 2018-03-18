@@ -1,4 +1,4 @@
-package com.githubexplorer;
+package com.redux_mastering;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "githubexplorer";
+        return "redux_mastering";
     }
 }

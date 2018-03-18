@@ -3,19 +3,23 @@ import Reactotron, {
   openInEditor,
   overlay,
   asyncStorage,
-  networking
-} from 'reactotron-react-native'
+  networking,
+} from 'reactotron-react-native';
 
-const tron = Reactotron
-  .configure({
-    name: 'React Native Demo'
-  })
-  .use(trackGlobalErrors())
-  .use(openInEditor())
-  .use(overlay())
-  .use(asyncStorage())
-  .use(networking())
-  .connect()
+import { reactotronRedux } from 'reactotron-redux';
 
-tron.clear();
-console.tron = tron;
+if (__DEV__) {
+  const tron = Reactotron
+    .configure({ name: 'Redux Mastering' })
+    .useReactNative()
+    .use(trackGlobalErrors())
+    .use(openInEditor())
+    .use(overlay())
+    .use(asyncStorage())
+    .use(networking())
+    .use(reactotronRedux())
+    .connect();
+
+  tron.clear();
+  console.tron = tron;
+}
