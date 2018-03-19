@@ -11,6 +11,7 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
+  ActivityIndicator,
   StatusBar,
 } from 'react-native';
 
@@ -27,6 +28,8 @@ class Main extends Component {
     }).isRequired,
     addFavoriteRequest: PropTypes.func.isRequired,
     favoritesCount: PropTypes.number.isRequired,
+    errorMessage: PropTypes.oneOfType([null, PropTypes.string]).isRequired,
+    loading: PropTypes.bool.isRequired,
   };
 
   state = {
@@ -55,6 +58,9 @@ class Main extends Component {
           </Text>
 
           <View style={styles.form}>
+            { !!this.props.errorMessage
+              && <Text style={styles.error}>{this.props.errorMessage}</Text> }
+
             <TextInput
               style={styles.input}
               autoCapitalize="none"
@@ -70,7 +76,10 @@ class Main extends Component {
               onPress={this.addRepository}
               activeOpacity={0.6}
             >
-              <Text style={styles.buttonText}>Adicionar aos favoritos!</Text>
+              { this.props.loading
+                ? <ActivityIndicator size="small" color={styles.loading.color} />
+                : <Text style={styles.buttonText}>Adicionar aos favoritos!</Text>
+              }
             </TouchableOpacity>
           </View>
         </View>
@@ -89,7 +98,9 @@ class Main extends Component {
 
 
 const mapStateToProps = state => ({
-  favoritesCount: state.favorites.length,
+  favoritesCount: state.favorites.data.length,
+  errorMessage: state.favorites.errorOnAdd,
+  loading: state.favorites.loading,
 });
 
 const mapDispatchToProps = dispatch =>
