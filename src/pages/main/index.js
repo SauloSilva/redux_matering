@@ -44,8 +44,6 @@ class Main extends Component {
   }
 
   render() {
-    console.tron.log(this.props);
-
     return (
       <SafeAreaView style={styles.container}>
         <StatusBar barStyle="light-content" />
